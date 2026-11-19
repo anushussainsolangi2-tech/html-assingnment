@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #151020;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #8b2cff;
+}
+
+.logo {
+    font-size: 25px;
+    color: #b45cff;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #b45cff;
+}
+
+main {
+    width: 85%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.purple {
+    color: #ad50ff;
+}
+
+p {
+    color: #ddd;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+button, .button {
+    background: #8b2cff;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+button:hover, .button:hover {
+    background: #b45cff;
+}
+
+.profile {
+    font-size: 100px;
+    margin: 25px;
+}
+
+.card {
+    background: #191329;
+    border: 1px solid #513078;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 12px;
+    display: inline-block;
+    width: 220px;
+}
+
+.card h3 {
+    color: #c080ff;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 8px;
+    background: #191329;
+    color: white;
+    border: 1px solid #7040a0;
+    border-radius: 7px;
+}
+
+textarea {
+    height: 100px;
+}
+
+footer {
+    text-align: center;
+    color: #aaa;
+    padding: 20px;
+    margin-top: 40px;
+}
